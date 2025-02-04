@@ -1,0 +1,17 @@
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml

@@ -1,0 +1,27 @@
+[1.488s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[1.887s] running develop
+[2.219s] running egg_info
+[2.219s] creating examples_rclpy_minimal_client.egg-info
+[2.220s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[2.221s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[2.221s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[2.222s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[2.223s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[2.224s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.231s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.234s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.281s] running build_ext
+[2.281s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[2.286s] Installing client script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.287s] Installing client_async script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.292s] Installing client_async_callback script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.292s] Installing client_async_member_function script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.295s] 
+[2.295s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client
+[2.297s] running symlink_data
+[2.297s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/share/ament_index
+[2.297s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[2.298s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[2.298s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[2.298s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[2.332s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data

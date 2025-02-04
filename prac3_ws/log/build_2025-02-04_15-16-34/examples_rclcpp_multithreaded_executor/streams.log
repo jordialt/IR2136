@@ -1,0 +1,72 @@
+[0.061s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor
+[0.805s] -- The C compiler identification is GNU 10.5.0
+[0.805s] -- The CXX compiler identification is GNU 10.5.0
+[0.806s] -- Detecting C compiler ABI info
+[1.184s] -- Detecting C compiler ABI info - done
+[1.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.215s] -- Detecting C compile features
+[1.215s] -- Detecting C compile features - done
+[1.229s] -- Detecting CXX compiler ABI info
+[1.686s] -- Detecting CXX compiler ABI info - done
+[1.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.703s] -- Detecting CXX compile features
+[1.705s] -- Detecting CXX compile features - done
+[1.716s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.165s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.381s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.513s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.535s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.556s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.730s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.755s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.094s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.165s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.289s] -- Looking for pthread.h
+[3.592s] -- Looking for pthread.h - found
+[3.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.826s] -- Found Threads: TRUE  
+[3.917s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.079s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.079s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.080s] -- Configured cppcheck include dirs: 
+[4.080s] -- Configured cppcheck exclude dirs and/or files: 
+[4.081s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.081s] -- Configured cpplint exclude dirs and/or files: 
+[4.081s] -- Added test 'lint_cmake' to check CMake code style
+[4.082s] -- Added test 'uncrustify' to check C / C++ code style
+[4.082s] -- Configured uncrustify additional arguments: 
+[4.082s] -- Added test 'xmllint' to check XML markup files
+[4.087s] -- Configuring done
+[4.109s] -- Generating done
+[4.118s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor
+[4.283s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor
+[4.301s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor -- -j6 -l6
+[4.572s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[14.366s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[15.523s] [100%] Built target multithreaded_executor
+[15.542s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor -- -j6 -l6
+[15.544s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor
+[15.553s] -- Install configuration: ""
+[15.555s] -- Execute custom install script
+[15.556s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[15.566s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[15.575s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[15.585s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[15.595s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[15.605s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[15.615s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[15.624s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[15.635s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[15.649s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[15.654s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[15.664s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[15.674s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[15.685s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[15.695s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[15.705s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[15.716s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_multithreaded_executor

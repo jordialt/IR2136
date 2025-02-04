@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service/service_main" "TARGETS" "service_main" "DESTINATION" "lib/examples_rclcpp_minimal_service")

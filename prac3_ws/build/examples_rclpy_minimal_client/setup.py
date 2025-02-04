@@ -1,0 +1,1 @@
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/examples/rclpy/services/minimal_client/setup.py

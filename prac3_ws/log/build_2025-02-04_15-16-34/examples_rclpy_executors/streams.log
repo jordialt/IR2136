@@ -1,0 +1,29 @@
+[1.464s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/build --no-deps symlink_data
+[1.837s] running develop
+[2.303s] running egg_info
+[2.304s] creating examples_rclpy_executors.egg-info
+[2.304s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.314s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.314s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.315s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.315s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.316s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.318s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.319s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.369s] running build_ext
+[2.369s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.375s] Installing callback_group script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.376s] Installing composed script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.377s] Installing custom_callback_group script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.377s] Installing custom_executor script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.377s] Installing listener script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.378s] Installing talker script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.379s] 
+[2.379s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors
+[2.379s] running symlink_data
+[2.380s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/share/ament_index
+[2.381s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[2.387s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.387s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.387s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[2.471s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_executors/build --no-deps symlink_data

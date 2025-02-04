@@ -1,0 +1,24 @@
+[1.063s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[1.368s] running develop
+[1.583s] running egg_info
+[1.583s] creating examples_rclpy_pointcloud_publisher.egg-info
+[1.583s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[1.584s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[1.584s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[1.585s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[1.586s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[1.589s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.591s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.595s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.661s] running build_ext
+[1.661s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[1.666s] Installing pointcloud_publisher script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[1.667s] 
+[1.667s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher
+[1.668s] running symlink_data
+[1.668s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[1.668s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[1.668s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[1.668s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[1.668s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[1.736s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data

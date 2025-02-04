@@ -1,0 +1,3 @@
+[console_scripts]
+battery_gps_node = my_drone_package.battery_gps_node:main
+mission_control_node = my_drone_package.mission_control_node:main

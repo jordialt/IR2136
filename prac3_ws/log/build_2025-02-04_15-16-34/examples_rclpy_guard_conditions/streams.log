@@ -1,0 +1,24 @@
+[1.022s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data
+[2.007s] running develop
+[2.031s] running egg_info
+[2.031s] creating examples_rclpy_guard_conditions.egg-info
+[2.032s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[2.032s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[2.032s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[2.033s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[2.033s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[2.033s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.041s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.050s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.099s] running build_ext
+[2.099s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[2.102s] Installing trigger_guard_condition script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[2.103s] 
+[2.103s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions
+[2.105s] running symlink_data
+[2.105s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[2.105s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[2.105s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.106s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.106s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[2.627s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data

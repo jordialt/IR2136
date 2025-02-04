@@ -1,0 +1,1 @@
+/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_publisher/ament_cmake_core/examples_rclcpp_minimal_publisherConfig.cmake

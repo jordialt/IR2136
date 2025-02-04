@@ -1,0 +1,23 @@
+[0.870s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/build --no-deps symlink_data
+[1.149s] running develop
+[1.355s] running egg_info
+[1.355s] creating launch_testing_examples.egg-info
+[1.355s] writing launch_testing_examples.egg-info/PKG-INFO
+[1.356s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[1.356s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[1.356s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[1.356s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[1.357s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.358s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.359s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.390s] running build_ext
+[1.390s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[1.394s] 
+[1.394s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples
+[1.394s] running symlink_data
+[1.395s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/share/ament_index
+[1.395s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/share/ament_index/resource_index
+[1.395s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.395s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.395s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/share/launch_testing_examples
+[1.429s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/launch_testing_examples/build --no-deps symlink_data

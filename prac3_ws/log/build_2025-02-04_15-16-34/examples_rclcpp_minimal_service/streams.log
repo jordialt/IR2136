@@ -1,0 +1,73 @@
+[0.027s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service
+[0.987s] -- The C compiler identification is GNU 10.5.0
+[0.987s] -- The CXX compiler identification is GNU 10.5.0
+[0.987s] -- Detecting C compiler ABI info
+[0.987s] -- Detecting C compiler ABI info - done
+[0.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.987s] -- Detecting C compile features
+[0.987s] -- Detecting C compile features - done
+[0.987s] -- Detecting CXX compiler ABI info
+[1.189s] -- Detecting CXX compiler ABI info - done
+[1.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.203s] -- Detecting CXX compile features
+[1.203s] -- Detecting CXX compile features - done
+[1.213s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.640s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.722s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.730s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.741s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.892s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.949s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.954s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.324s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.458s] -- Looking for pthread.h
+[2.644s] -- Looking for pthread.h - found
+[2.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.916s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.920s] -- Found Threads: TRUE  
+[2.995s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.189s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.190s] -- Configured cppcheck include dirs: 
+[3.190s] -- Configured cppcheck exclude dirs and/or files: 
+[3.191s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.191s] -- Configured cpplint exclude dirs and/or files: 
+[3.191s] -- Added test 'lint_cmake' to check CMake code style
+[3.192s] -- Added test 'uncrustify' to check C / C++ code style
+[3.192s] -- Configured uncrustify additional arguments: 
+[3.192s] -- Added test 'xmllint' to check XML markup files
+[3.197s] -- Configuring done
+[3.218s] -- Generating done
+[3.227s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service
+[3.240s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service
+[3.256s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service -- -j6 -l6
+[3.482s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[14.069s] [100%] [32m[1mLinking CXX executable service_main[0m
+[14.786s] [100%] Built target service_main
+[14.841s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service -- -j6 -l6
+[14.857s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service
+[16.762s] -- Install configuration: ""
+[16.762s] -- Execute custom install script
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[16.762s] -- Symlinking: /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[16.787s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclcpp_minimal_service

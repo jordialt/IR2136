@@ -1,0 +1,26 @@
+[0.886s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data
+[1.271s] running develop
+[1.490s] running egg_info
+[1.490s] creating examples_rclpy_minimal_subscriber.egg-info
+[1.490s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[1.490s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[1.490s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[1.490s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[1.490s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[1.491s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.492s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.494s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.520s] running build_ext
+[1.521s] Creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[1.530s] Installing subscriber_lambda script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.533s] Installing subscriber_member_function script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.533s] Installing subscriber_old_school script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.533s] 
+[1.533s] Installed /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber
+[1.534s] running symlink_data
+[1.534s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[1.534s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[1.534s] creating /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.535s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.535s] symbolically linking /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/package.xml -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[1.612s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data
