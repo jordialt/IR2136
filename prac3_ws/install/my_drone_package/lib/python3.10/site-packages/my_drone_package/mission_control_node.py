@@ -15,6 +15,15 @@ class MissionControlNode(Node):
         self.connection.wait_heartbeat()
         self.get_logger().info("Connected to SITL.")
         self.publish_target_gps(target_lat, target_lon)
+        self.set_mode("GUIDED")
+        time.sleep(2)
+        self.arm_vehicle()  # Arm the drone at the beginning
+        time.sleep(2)
+        self.takeoff(10)
+        time.sleep(2)
+        self.publish_target_gps(target_lat, target_lon)
+        
+          # Set to GUIDED mode
     
     def publish_target_gps(self, lat, lon):
         gps_msg = NavSatFix()
@@ -31,6 +40,35 @@ class MissionControlNode(Node):
                 mavutil.mavlink.MAV_CMD_NAV_LAND, 0, 0, 0, 0, 0, 0, 0, 0
             )
 
+    def arm_vehicle(self):
+        """Arms the drone."""
+        self.connection.mav.command_long_send(
+            self.connection.target_system,
+            self.connection.target_component,
+            mavutil.mavlink.MAV_CMD_COMPONENT_ARM_DISARM,
+            0,  # Confirmation
+            1,  # Arm
+            0, 0, 0, 0, 0, 0
+        )
+        self.get_logger().info("Drone armed.")
+
+    def takeoff(self, altitude):
+        """Initiates takeoff."""
+        self.connection.mav.command_long_send(
+            self.connection.target_system,
+            self.connection.target_component,
+            mavutil.mavlink.MAV_CMD_NAV_TAKEOFF,
+            0,  # Confirmation
+            0, 0, 0, 0, 0, 0, altitude  # Desired altitude
+        )
+        self.get_logger().info(f"Taking off to {altitude} meters.")
+
+    def set_mode(self, mode):
+        """Sets the flight mode for the drone."""
+        # Request the mode change to GUIDED
+        self.connection.set_mode(mode)
+        self.get_logger().info(f"Mode changed to {mode}.")
+
 def main(args=None):
     rclpy.init(args=args)
     if len(sys.argv) < 3:
@@ -44,3 +82,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+

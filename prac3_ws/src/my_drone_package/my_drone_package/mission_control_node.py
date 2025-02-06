@@ -15,6 +15,15 @@ class MissionControlNode(Node):
         self.connection.wait_heartbeat()
         self.get_logger().info("Connected to SITL.")
         self.publish_target_gps(target_lat, target_lon)
+        self.set_mode("GUIDED")
+        time.sleep(2)
+        self.arm_vehicle()  # Arm the drone at the beginning
+        time.sleep(2)
+        self.takeoff(10)
+        time.sleep(2)
+        self.publish_target_gps(target_lat, target_lon)
+        
+          # Set to GUIDED mode
     
     def publish_target_gps(self, lat, lon):
         gps_msg = NavSatFix()
@@ -30,6 +39,7 @@ class MissionControlNode(Node):
                 self.connection.target_system, self.connection.target_component,
                 mavutil.mavlink.MAV_CMD_NAV_LAND, 0, 0, 0, 0, 0, 0, 0, 0
             )
+
     def arm_vehicle(self):
         """Arms the drone."""
         self.connection.mav.command_long_send(
@@ -55,6 +65,7 @@ class MissionControlNode(Node):
 
     def set_mode(self, mode):
         """Sets the flight mode for the drone."""
+        # Request the mode change to GUIDED
         self.connection.set_mode(mode)
         self.get_logger().info(f"Mode changed to {mode}.")
 
@@ -71,3 +82,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
