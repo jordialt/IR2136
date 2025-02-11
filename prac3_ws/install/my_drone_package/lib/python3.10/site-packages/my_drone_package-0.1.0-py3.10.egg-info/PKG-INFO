@@ -2,8 +2,8 @@ Metadata-Version: 2.2
 Name: my_drone_package
 Version: 0.1.0
 Summary: Paquete para controlar el dron en ROS 2
-Maintainer: Tu Nombre
-Maintainer-email: tu_email@example.com
+Maintainer: Jordi Altarejos
+Maintainer-email: al416445@uji.es
 License: MIT
 Requires-Dist: setuptools
 Dynamic: license

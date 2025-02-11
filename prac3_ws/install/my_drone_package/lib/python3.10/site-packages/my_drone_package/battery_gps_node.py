@@ -38,8 +38,8 @@ class BatteryGPSNode(Node):
             self.connect_to_drone()  # Attempt reconnection if connection is lost
 
         try:
-            # Use non-blocking call to get battery status
-            msg = self.connection.recv_match(type='BATTERY_STATUS', blocking=False)
+            # Use non-blocking call to get battery status with increased timeout
+            msg = self.connection.recv_match(type='BATTERY_STATUS', blocking=False, timeout=5)
             if msg:
                 remaining_battery = msg.battery_remaining
                 battery_msg = Float32()
@@ -97,4 +97,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-

@@ -4,7 +4,7 @@
   <name>my_drone_package</name>
   <version>0.1.0</version>
   <description>Paquete para controlar el dron en ROS 2</description>
-  <maintainer email="tu_email@example.com">Tu Nombre</maintainer>
+  <maintainer email="al416445@uji.es">Jordi Altarejos</maintainer>
   <license>MIT</license>
 
   <!-- Dependencias necesarias para los nodos -->

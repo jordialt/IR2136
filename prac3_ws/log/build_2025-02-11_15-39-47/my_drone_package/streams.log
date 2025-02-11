@@ -1,0 +1,28 @@
+[1.569s] Invoking command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/my_drone_package': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_drone_package build --build-base /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build install --record /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/install.log --single-version-externally-managed
+[2.071s] running egg_info
+[2.128s] writing ../../build/my_drone_package/my_drone_package.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../../build/my_drone_package/my_drone_package.egg-info/dependency_links.txt
+[2.128s] writing entry points to ../../build/my_drone_package/my_drone_package.egg-info/entry_points.txt
+[2.129s] writing requirements to ../../build/my_drone_package/my_drone_package.egg-info/requires.txt
+[2.129s] writing top-level names to ../../build/my_drone_package/my_drone_package.egg-info/top_level.txt
+[2.207s] reading manifest file '../../build/my_drone_package/my_drone_package.egg-info/SOURCES.txt'
+[2.209s] reading manifest template 'MANIFEST.in'
+[2.210s] writing manifest file '../../build/my_drone_package/my_drone_package.egg-info/SOURCES.txt'
+[2.211s] running build
+[2.211s] running build_py
+[2.211s] copying my_drone_package/battery_gps_node.py -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build/lib/my_drone_package
+[2.213s] copying my_drone_package/mission_control_node.py -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build/lib/my_drone_package
+[2.215s] copying my_drone_package/__init__.py -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build/lib/my_drone_package
+[2.217s] running install
+[2.221s] running install_lib
+[2.278s] copying /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build/lib/my_drone_package/battery_gps_node.py -> /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages/my_drone_package
+[2.279s] byte-compiling /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages/my_drone_package/battery_gps_node.py to battery_gps_node.cpython-310.pyc
+[2.280s] byte-compiling /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages/my_drone_package/mission_control_node.py to mission_control_node.cpython-310.pyc
+[2.282s] running install_egg_info
+[2.329s] removing '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages/my_drone_package-0.1.0-py3.10.egg-info' (and everything under it)
+[2.329s] Copying ../../build/my_drone_package/my_drone_package.egg-info to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages/my_drone_package-0.1.0-py3.10.egg-info
+[2.341s] running install_scripts
+[2.569s] Installing battery_gps_node script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/bin
+[2.569s] Installing mission_control_node script to /home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/bin
+[2.570s] writing list of installed files to '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/install.log'
+[2.598s] Invoked command in '/home/usuario/Documentos/GitHub/IR2136/prac3_ws/src/my_drone_package' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2136/prac3_ws/install/my_drone_package/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_drone_package build --build-base /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/build install --record /home/usuario/Documentos/GitHub/IR2136/prac3_ws/build/my_drone_package/install.log --single-version-externally-managed

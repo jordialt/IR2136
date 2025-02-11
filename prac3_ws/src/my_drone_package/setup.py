@@ -8,8 +8,8 @@ setup(
     packages=[package_name],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Tu Nombre',
-    maintainer_email='tu_email@example.com',
+    maintainer='Jordi Altarejos',
+    maintainer_email='al416445@uji.es',
     description='Paquete para controlar el dron en ROS 2',
     license='MIT',
     entry_points={

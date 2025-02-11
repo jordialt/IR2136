@@ -17,28 +17,23 @@ class MissionControlNode(Node):
         self.publish_target_gps(target_lat, target_lon)
         self.set_mode("GUIDED")
         time.sleep(2)
-        self.arm_vehicle()  # Arm the drone at the beginning
+        self.arm_vehicle()
         time.sleep(2)
         self.takeoff(10)
         time.sleep(2)
         self.publish_target_gps(target_lat, target_lon)
-        
-          # Set to GUIDED mode
-    
+
     def publish_target_gps(self, lat, lon):
         gps_msg = NavSatFix()
         gps_msg.latitude = lat
         gps_msg.longitude = lon
         self.gps_pub.publish(gps_msg)
         self.get_logger().info(f"Published target GPS: {lat}, {lon}")
-    
+
     def check_battery(self, msg):
         if msg.data <= 20.0:
             self.get_logger().warn("Low battery! Initiating landing.")
-            self.connection.mav.command_long_send(
-                self.connection.target_system, self.connection.target_component,
-                mavutil.mavlink.MAV_CMD_NAV_LAND, 0, 0, 0, 0, 0, 0, 0, 0
-            )
+            self.land_vehicle()
 
     def arm_vehicle(self):
         """Arms the drone."""
@@ -65,9 +60,19 @@ class MissionControlNode(Node):
 
     def set_mode(self, mode):
         """Sets the flight mode for the drone."""
-        # Request the mode change to GUIDED
         self.connection.set_mode(mode)
         self.get_logger().info(f"Mode changed to {mode}.")
+
+    def land_vehicle(self):
+        """Sends the landing command to the drone."""
+        self.connection.mav.command_long_send(
+            self.connection.target_system,
+            self.connection.target_component,
+            mavutil.mavlink.MAV_CMD_NAV_LAND,
+            0,  # Confirmation
+            0, 0, 0, 0, 0, 0, 0
+        )
+        self.get_logger().info("Landing command sent.")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -82,4 +87,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
